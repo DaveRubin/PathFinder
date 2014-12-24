@@ -1,0 +1,25 @@
+.square {
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  -ms-transition: background-color 0.1s;
+  -o-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+}
+.square.top {
+  border-top: solid 3px #000000;
+}
+.square.bottom {
+  border-bottom: solid 3px #000000;
+}
+.square.left {
+  border-left: solid 3px #000000;
+}
+.square.right {
+  border-right: solid 3px #000000;
+}
+.square.selected {
+  background-color: dodgerblue;
+}

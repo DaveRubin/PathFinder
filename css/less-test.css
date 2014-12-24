@@ -1,0 +1,35 @@
+.main-container {
+  height: 100px;
+  background-color: rgba(255, 0, 0, 0.1);
+}
+.main-container h1 {
+  color: #ff0000;
+}
+.main-container .class-a h1 {
+  color: #990000;
+}
+.square {
+  width: 30px;
+  height: 30px;
+  background-color: #ff0000;
+  border-radius: 10px;
+}
+.square.small {
+  width: 10px;
+  height: 10px;
+}
+.square.big {
+  width: 100px;
+  height: 100px;
+}
+.square.special {
+  background-color: lime;
+}
+.square:hover {
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+  -ms-transition: background-color 0.5s;
+  -o-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+  background-color: lightblue;
+}

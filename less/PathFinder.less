@@ -1,0 +1,28 @@
+body{
+
+}
+.square{
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
+  -webkit-transition: background-color 0.1s;
+  -moz-transition: background-color 0.1s;
+  -ms-transition: background-color 0.1s;
+  -o-transition: background-color 0.1s;
+  transition: background-color 0.1s;
+  &.top{
+    border-top: solid 3px #000000;
+  }
+  &.bottom{
+      border-bottom: solid 3px #000000;
+  }
+  &.left{
+      border-left: solid 3px #000000;
+  }
+  &.right{
+      border-right: solid 3px #000000;
+  }
+  &.selected{
+    background-color: dodgerblue;
+  }
+}
