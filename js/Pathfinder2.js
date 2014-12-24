@@ -1,5 +1,6 @@
 /**
  * Created by dudi on 12/9/14.
+ * yeah!
  */
 function point(x,y,parentPoint){
     this.x = x;
